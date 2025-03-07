@@ -175,15 +175,15 @@
                     const audio = document.createElement('audio');
                     audio.controls = true;
                     
-                    // Use the correct filename format: sentence0 through sentence9
-                    const audioPath = `${basePath}${folder}/sentence${i}.mp3`;
+                    // Use the correct filename format and extension: sentence0.wav through sentence9.wav
+                    const audioPath = `${basePath}${folder}/sentence${i}.wav`;
                     
                     // Debugging info
                     console.log(`Loading audio from: ${audioPath}`);
                     
                     const source = document.createElement('source');
                     source.src = audioPath;
-                    source.type = 'audio/mpeg';
+                    source.type = 'audio/wav';
                     
                     audio.appendChild(source);
                     
