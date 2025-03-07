@@ -1,0 +1,11 @@
+Actual folder order per row (for your reference):
+Row 1: KV,laptop,lenovo
+Row 2: lenovo,KV,laptop
+Row 3: laptop,KV,lenovo
+Row 4: KV,lenovo,laptop
+Row 5: KV,laptop,lenovo
+Row 6: KV,lenovo,laptop
+Row 7: laptop,lenovo,KV
+Row 8: laptop,lenovo,KV
+Row 9: lenovo,KV,laptop
+Row 10: lenovo,laptop,KV
