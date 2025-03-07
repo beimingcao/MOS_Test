@@ -175,9 +175,11 @@
                     const audio = document.createElement('audio');
                     audio.controls = true;
                     
-                    // In a real scenario, this would be the actual path to your audio file
-                    // For the demo, we're using the same sample index for all folders
-                    const audioPath = `${basePath}${folder}/sample${i + 1}.mp3`;
+                    // Use the correct filename format: sentence0 through sentence9
+                    const audioPath = `${basePath}${folder}/sentence${i}.mp3`;
+                    
+                    // Debugging info
+                    console.log(`Loading audio from: ${audioPath}`);
                     
                     const source = document.createElement('source');
                     source.src = audioPath;
